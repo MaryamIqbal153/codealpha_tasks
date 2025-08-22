@@ -38,6 +38,8 @@ function App() {
       } else if (key.toLowerCase() === "c") {
         handleButtonClick("C");
       }
+      
+      event.target.blur();
     };
 
     window.addEventListener("keydown", handleKeyDown);
